@@ -168,6 +168,7 @@ p {
     MEDIA QUERIES
 *************************/
 
+/* Large Mobile */
 @media(max-width: 505px) {
 
     #showcase h1 {
@@ -176,6 +177,25 @@ p {
 
 }
 
+/* Medium Mobile */
+@media(max-width: 450px) {
+
+    #showcase h1 {
+        padding-top: 40px;
+    }
+
+}
+
+/* Small Mobile */
+@media(max-width: 370px) {
+
+    #showcase h1 {
+        padding-top: 20px;
+    }
+
+}
+
+/* Desktop */
 @media(min-width: 800px) {
 
     .grid {
